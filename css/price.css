@@ -1,0 +1,88 @@
+
+body {
+  margin-top: 10%;
+}
+
+h3 {
+  text-align:center;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.columns {
+  float: left;
+  width: 30%;
+  padding:1%;
+  margin-top: 3%;
+  margin-left: 1%;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+}
+
+#basic {
+  background-image: url('../images/1.jpg');
+  background-repeat: no-repeat;
+}
+
+#pro {
+  background-image: url('../images/10.jpg');
+  background-repeat: no-repeat;
+}
+
+#morePro {
+  background-image: url('../images/3.jpg');
+  background-repeat: no-repeat;
+
+}
+
+.price:hover {
+  box-shadow: 0 20px 12px 0 rgba(223, 3, 252, 0.2)
+}
+
+.header {
+  background-color: rgba(223, 3, 252,0.5);
+}
+
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: left;
+  font-size: 150%;
+}
+
+/*for the sum*/
+.price .money {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: blueviolet;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/*for tablet screen*/
+@media only screen and (max-width: 900px) {
+  body {
+    margin-top: 20%;
+  }
+}
+
+/*for phone screen*/
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 80%;
+    margin-left: 8%;
+  }
+}
+

@@ -1,0 +1,29 @@
+/*for all the page*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bejerano";
+  font-size: larger;
+  background-color: #cccccc;
+}
+
+h2,
+h1 {
+  color: rgb(13, 12, 13);
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+/*delete acrollbar*/
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+
+
+
+
+

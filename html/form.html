@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+
+<body>
+    <div>
+        <div id="CourseText">
+            <p>
+            <h2>ללמוד לצלם טוב הרבה יותר!</h2>
+
+            להפוך את הצילום ממשהו חובבני ליצירה של ממש
+            <br>
+            <br>
+            קורס יסודות הצילום!
+            <br>
+            <br>
+            רוצה ללמוד לצלם ברמה גבוהה? לתת דרור ליצירתיות שיש בך?
+            <br>
+            <br>
+            גם אם את/ה ברמה הכי התחלתית וגם אם יש לך נסיון מסוים, הקורס שלנו הוא ה-מקום בשבילך להתחיל את המסע המהנה הזה
+            בקלות, בכיף ובקבוצה קטנה של עד 10 תלמידים.
+            <br>
+            <br>
+            אצלנו תלמד/י איך לצלם כמו מקצוענ/ית.
+            <br>
+            <br>
+            מטרת הקורס הן ללמוד איך לשלוט במצב צילום ידני במצלמה במגוון מצבי צילום משתנים כגון:<br> טבע ונוף, אוירה,
+            בע״ח,
+            צילום בלילה וחשיפות ארוכות, צילום רחוב ושקיעות.
+            <br>
+            <br>
+            בנוסף לכך נשים דגש על פיתוח חשיבה והדמיון, צילום בקומפוזיציות נכונות והיכולת להעביר מסר חזק בתמונה.
+            <br>
+            <br>
+            במהלך הקורס תיחשפ/י לעולם של עריכת תמונת בצורה מקצועית וכן צילום מקצועי עם פלאש המצלמה.
+            <br>
+            <br>
+            מחכים לכם - פלאש!!!
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <form action="../html/server.html" >
+                <h1> הרשם לקורס שלנו!!! </h1>
+
+                <fieldset>
+                    <label>שם פרטי:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label>שם משפחה:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+
+                    <label>מספר טלפון:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label>אימייל:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label>מטרת הקורס:</label>
+                    <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13"
+                        class="domain"> תחביב </label><br>
+                    <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="domain">
+                        מקצוע</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <label for="job">מהי רמתך המקצועית:</label>
+                    <select >
+                        <option>מתחיל</option>
+                        <option>מתקדם</option>
+                        <option>מקצועי</option>
+                    </select>
+
+                    <label>מהם התחומים בהם תשמח להתמקד במהלך בקורס?</label>
+                    <input type="checkbox" ><label class="domain" for="development">ניו בורן</label><br>
+                    <input type="checkbox" ><label class="domain" for="design">סמאש קייק</label><br>
+                    <input type="checkbox" ><label class="domain" for="business">בת מצווה</label>
+                    <br>
+                    <input type="checkbox" ><label class="domain" for="business">חלאקה </label>
+                    <br>
+                    <br>
+                    <label for="Notes-clarifications">הערות / הארות</label>
+                    <textarea></textarea>
+                </fieldset>
+
+                <button type="submit"> תרשמו אותי!!</button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+

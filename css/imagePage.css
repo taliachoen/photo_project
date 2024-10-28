@@ -1,0 +1,114 @@
+/*for all page*/
+*{
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+ }
+
+body {
+    margin-top: 10%;
+}
+
+/*display the conected pictures*/
+#img_container {
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5, 25%);
+    margin-top: 0px;
+}
+
+/*for pictures which conected to the inside pages*/
+.picture {
+    width: 75%;
+    height: 80%;
+    border-radius: 5%;
+
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    color: black
+}
+
+
+#pagination {
+    display: inline-block;
+    margin-left: 40%;
+}
+
+#pagination a {
+    color: white;
+    float: left;
+    padding: 1%;
+    text-decoration: none;
+    background-color: darkorchid;
+    border-radius: 50%;
+    font-size: x-large;
+}
+
+a:active {
+    background-color: blueviolet;
+    border-radius: 0%;
+}
+
+#title {
+    display: grid;
+    grid-template-rows: 40% 10%;
+    gap: 5%;
+}
+
+img:hover {
+    transform: scale(1, 1.2);
+    border: 3px solid blueviolet;
+}
+iframe{
+    width: 100%; 
+    overflow: hidden;
+    border-top: 2px solid blueviolet;
+}
+
+/*for tablet acreen*/
+@media screen and (max-width:900px) {
+
+    body {
+        margin-top: 18%;
+
+    }
+
+    #pagination {
+        margin-left: 32%;
+        margin-top: 1%;
+    }
+
+    #img_container {
+        gap: 2%;
+        grid-template-columns: repeat(2, 49%);
+        grid-template-rows: repeat(10, 15%);
+        margin-left: 9%;
+    }
+}
+
+
+/*for phone acreen*/
+@media screen and (max-width:600px) {
+
+    body {
+        margin-top: 19%;
+    }
+
+    #pagination {
+        margin-top: 0%;
+        margin-left: 25%;
+    }
+
+    #img_container {
+        gap: 2%;
+        grid-template-columns: 95%;
+        grid-template-rows: repeat(16, 9%);
+        margin-left: 10%;
+    }
+}

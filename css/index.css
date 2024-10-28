@@ -1,0 +1,97 @@
+
+#ulLinks {
+  display: grid;
+  grid-template-columns: repeat(6, 15%);
+  background-color: #d9ccda;
+  justify-content: center;
+  padding: 1.5%; 
+  margin-top: 0;
+  list-style-type: none;
+  border: none
+}
+#footerMain{
+  display: flex;
+  text-align: center;
+}
+
+td,th{
+  border: 1px solid rebeccapurple;
+}
+#tbl-times{
+  flex: 1;
+}
+
+.ft-main-item{
+  flex: 1;
+}
+
+
+header{
+  text-align: center;
+  position:fixed;
+  width: 100%;
+  height: 1%;
+}
+
+iframe {
+  height: 100vh;
+  border: none
+}
+
+a{
+  text-decoration: none;
+  font-size: 170%;
+  color: rgb(94, 13, 169);
+}
+
+
+#logo {
+  margin-top:4%;
+  max-width: 80%;
+  max-height: 40%;
+}
+
+section{
+  direction:rtl;
+  background-color: #ebc6ee;
+  color: blueviolet;
+}
+
+li a:active {
+  color: rgb(46, 0, 45);
+}
+
+#sumbit{
+	background-color:blueviolet ;
+}
+
+.ft-legal {
+  padding: 0.5% 0.5%;
+  background-color: #333;
+}
+
+/*for tablet acreen*/
+@media screen and (max-width:900px) {
+
+  #ulLinks {
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 50%  50%;
+    padding: 1.5%; 
+  }
+  #ulLinks > li > a{
+    border: 1px solid blueviolet;
+    font-size: 22px;  }
+  
+}
+
+@media screen and (max-width:460px) {
+ 
+  #footerMain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+ 
+}
+
+

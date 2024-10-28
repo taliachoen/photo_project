@@ -1,0 +1,120 @@
+body {
+  margin-top: 10%;
+  font-family: "Bejerano";
+  color: #384047;
+  direction: rtl;
+}
+
+form {
+  max-width: 80%;
+  margin: 2% auto;
+  padding: 10px 20px;
+  background: #999a9a;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  background: rgba(42, 35, 35, 0.1);
+  width: 80%;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  background-color: #e4b1e1;
+  color: #8a97a0;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: blueviolet;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid blueviolet;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 2%;
+}
+
+label.domain {
+  display: inline;
+}
+
+
+#CourseText {
+  margin-right: 0%;
+  text-align: center;
+  font-size: x-large;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+form {
+  max-width: 600px;
+}
+
+h1,
+h2 {
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  color: rgb(11, 12, 12);
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+/*delete scrollbar*/
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/*for tablet acreen*/
+@media screen and (max-width:900px) {
+
+  form {
+    max-width: 480px;
+  }
+
+  body {
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+}
